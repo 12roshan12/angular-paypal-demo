@@ -1,0 +1,44 @@
+<div #paymentRef>
+
+</div>
+
+<div >
+  <div>
+    <label>Payment Details</label>
+    <pre #paymentDetailsSection></pre>
+  </div>
+  
+  <div>
+    <label>Fetched Details</label>
+    <pre #fetchedDetailsSection></pre>
+  </div>
+  
+  <div>
+    <label>Captured Details</label>
+    <pre #capturedDetailsSection></pre>
+  </div>
+</div>
+
+<div style="background-color: rgb(208, 211, 210); padding: 20px;">
+  
+  <div style="padding: 10px 0px;">
+    <button (click)="generateToken()" >Generate access token</button>
+  </div>
+
+
+  <div>
+    <label>Login Details</label>
+    <pre #loginDetailSection></pre>
+  </div>
+
+  <div >
+    <button (click)="getOrderDetails()" >Get Order Detail</button>
+  </div>
+
+  <div>
+    <label>Order Details</label>
+    <pre #fetchedOrderSection></pre>
+  </div>
+
+
+</div>
